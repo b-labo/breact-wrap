@@ -20,10 +20,10 @@ describe('scoped', function () {
   }))
 
   it('Scoped', () => co(function * () {
-    let { asScope, toState } = scoped((scope) => 'foo:' + scope)
+    let { asScope, toProps } = scoped((scope) => 'foo:' + scope)
     asScope('bar')
     asScope('baz')
-    assert.deepEqual(toState(), [ { bar: 'foo:bar' }, { baz: 'foo:baz' } ])
+    assert.deepEqual(toProps(), [ { bar: 'foo:bar' }, { baz: 'foo:baz' } ])
   }))
 })
 
