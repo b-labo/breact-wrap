@@ -1,6 +1,6 @@
 {
   "name": "breact-wrap",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Wrapper utility for breact",
   "main": "lib",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/b-labo/breact-wrap#readme",
   "dependencies": {
+    "abind": "^1.0.0",
     "co": "^4.6.0",
     "stringcase": "^3.1.1"
   },

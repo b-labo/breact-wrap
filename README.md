@@ -107,6 +107,7 @@ Available functions
 | ---- | ----------- |
 | `combine(wrappers) -> function` | Combine multiple wrappers into one |
 | `prefixOf(component) -> string` | Get prefix of wrapped component |
+| `scoped(mapper) -> Scoped` |  |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->
