@@ -23,7 +23,7 @@ describe('scoped', function () {
     let { asScope, toProps } = scoped((scope) => 'foo:' + scope)
     asScope('bar')
     asScope('baz')
-    assert.deepEqual(toProps(), [ { bar: 'foo:bar' }, { baz: 'foo:baz' } ])
+    assert.deepEqual(toProps(), { bar: 'foo:bar', baz: 'foo:baz' })
   }))
 })
 
