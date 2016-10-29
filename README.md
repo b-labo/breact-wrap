@@ -106,7 +106,7 @@ Available functions
 | Signature | Description |
 | ---- | ----------- |
 | `combine(wrappers) -> function` | Combine multiple wrappers into one |
-| `prefixOf() -> string` | Get prefix of wrapped component |
+| `prefixOf(component) -> string` | Get prefix of wrapped component |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->
