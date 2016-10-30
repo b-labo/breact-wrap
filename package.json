@@ -1,6 +1,6 @@
 {
   "name": "breact-wrap",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Wrapper utility for breact",
   "main": "lib",
   "scripts": {
