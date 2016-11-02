@@ -1,11 +1,12 @@
 {
   "name": "breact-wrap",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Wrapper utility for breact",
   "main": "lib",
+  "browser": "shim/browser",
   "scripts": {
     "test": "node ./ci/test.js",
-    "prepublish": "node ./ci/build.js"
+    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
   },
   "repository": "b-labo/breact-wrap",
   "keywords": [],
