@@ -20,7 +20,13 @@ describe('combine', function () {
   }))
 
   it('Combine', () => co(function * () {
-
+    let combined = combine(
+      (Component) => ({ foo: 'bar' })
+    )({
+      bar: 'baz'
+    })
+    assert.equal(combined.foo, 'bar')
+    assert.equal(combined.bar, 'baz')
   }))
 })
 
