@@ -1,6 +1,6 @@
 {
   "name": "breact-wrap",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Wrapper utility for breact",
   "main": "lib",
   "browser": "shim/browser",

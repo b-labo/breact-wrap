@@ -106,7 +106,7 @@ Available functions
 | `combine(wrappers) -> function` | Combine multiple wrappers into one |
 | `cycle() -> Promise` | Do with cycle |
 | `prefixOf(component) -> string` | Get prefix of wrapped component |
-| `scoped(mapper) -> Scoped` |  |
+| `scoped() -> Scoped` |  |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->
